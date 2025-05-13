@@ -1,0 +1,22 @@
+/* Dark Theme Color Palette */
+:root {
+    /* Backgrounds & Surfaces */
+    --color-background: #121212;  /* Primary Dark Background */
+    --color-surface: #1C1C1C;     /* Card or Surface Background */
+  
+    /* Primary & Secondary Colors */
+    --color-primary: #bb86fc;     /* Accent color for buttons, highlights, etc. */
+    --color-secondary: #03dac6;
+  
+    /* Text Colors */
+    --color-text-primary: #ffffff; /* Main text color */
+    --color-text-secondary: #b0b0b0; /* Secondary text (less emphasis) */
+    --color-text-disabled: #808080;  /* For disabled states */
+  
+    /* Error Colors */
+    --color-error: #cf6679;
+  
+    /* Borders & Shadows */
+    --color-border: #2c2c2c;
+    --color-shadow: rgba(0, 0, 0, 0.2);
+  }
