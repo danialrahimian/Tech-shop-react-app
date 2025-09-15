@@ -8,6 +8,7 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
+  const [theme, setTheme] = React.useState("light");
   return (
     <div className="App">
       <Navbar />
