@@ -8,7 +8,6 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
-
   return (
     <div className="App">
       <Navbar />
